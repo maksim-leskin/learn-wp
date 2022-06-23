@@ -16,15 +16,12 @@ module.exports = {
     open: true,
     hot: true,
   },
-  resolve: {
-    extensions: ['.js', '.ts']
-  },
   entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
   output: {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
     filename: '[name].[contenthash].js',
-    assetModuleFilename: 'assets/[hash][ext][query]',
+    assetModuleFilename: 'assets/[name][ext]'
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -64,7 +61,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(jpe?g|gif|svg|png|webp)$/i,
+        test: /\.(jpe?g|png|webp|gif|svg)$/i,
         use: [
           {
             loader: 'image-webpack-loader',
@@ -84,9 +81,9 @@ module.exports = {
               },
               webp: {
                 quality: 75
-              }
+              },
             }
-          },
+          }
         ],
         type: 'asset/resource',
       },

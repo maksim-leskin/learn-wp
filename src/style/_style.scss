@@ -6,9 +6,8 @@ body {
 }
 
 .image {
-  background-image: url('./img/brock-wegner.jpg');
   width: 300px;
-  height: 400px;
-  background-position: center;
+  height: 500px;
   background-size: cover;
+  background-image: url('img/brock-wegner.jpg');
 }
