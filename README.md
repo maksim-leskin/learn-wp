@@ -5,7 +5,22 @@
 Для установки пакетов используйте команду npm install
 
 Команды
-   npm run start        |  Запуск сервера для разработки
-   npm run build:dev    |  Сборка проекта без оптимизации
-   npm run build:prod   |  Сборка проекта с оптимизацией
-   npm run clear        |  Очистка папки dist
+### Запуск сервера для разработки
+```shell
+npm run start
+```
+
+### Сборка проекта без оптимизации
+```shell
+npm run build:dev
+```
+
+### Сборка проекта с оптимизацией
+```shell
+npm run build:prod
+```
+
+### Очистка папки dist
+```shell
+npm run clear
+```
