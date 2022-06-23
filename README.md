@@ -1,10 +1,12 @@
 # WEBPACK
 
 ссылка на youtube
+https://youtu.be/yVR1VsRGsRs
 
 Для установки пакетов используйте команду npm install
 
-Команды
+## Команды
+
 ### Запуск сервера для разработки
 ```shell
 npm run start
