@@ -1,7 +1,7 @@
 # WEBPACK
 
 ссылка на youtube
-https://youtu.be/j2kK1Lfl30A
+https://youtu.be/o8KMucDpSno
 
 Для установки пакетов используйте команду npm install
 
