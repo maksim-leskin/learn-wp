@@ -50,6 +50,7 @@ module.exports = {
               },
             },
           },
+          'group-css-media-queries-loader',
           'sass-loader',
         ],
       },
