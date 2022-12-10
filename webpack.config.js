@@ -16,7 +16,7 @@ module.exports = {
     open: true,
     hot: true,
   },
-  entry: ['@babel/polyfill', path.resolve(__dirname, 'src', 'index.js')],
+  entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
@@ -63,7 +63,7 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|png|webp|gif|svg)$/i,
-        use: [
+        use: devMode ? [] : [
           {
             loader: 'image-webpack-loader',
             options: {

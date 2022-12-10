@@ -18,26 +18,23 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@babel/preset-env": "^7.19.3",
-    "babel-loader": "^8.2.5",
-    "css-loader": "^6.7.1",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.7.2",
     "group-css-media-queries-loader": "^4.3.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "image-webpack-loader": "^8.1.0",
-    "mini-css-extract-plugin": "^2.6.1",
-    "postcss": "^8.4.16",
-    "postcss-loader": "^7.0.1",
-    "postcss-preset-env": "^7.8.2",
-    "sass": "^1.55.0",
-    "sass-loader": "^13.0.2",
+    "mini-css-extract-plugin": "^2.7.2",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.2",
+    "postcss-preset-env": "^7.8.3",
+    "sass": "^1.56.2",
+    "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
-    "webpack": "^5.74.0",
+    "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.12.1"
   }
 }
