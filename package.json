@@ -1,6 +1,6 @@
 {
   "name": "learn-wp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/core": "^7.20.5",
+    "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
     "copy-webpack-plugin": "^11.0.0",
